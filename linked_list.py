@@ -9,7 +9,7 @@ class LinkedList(object):
         self.headnode = headnode
         self.count = 0
         if headnode:
-            self.count = 1
+         self.count = 1
 
     def append(self, new_node):
         current = self.headnode
